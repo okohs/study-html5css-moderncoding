@@ -2,8 +2,10 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>シングルページレイアウト</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/bcd7e4bde3.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -86,13 +88,48 @@
         </div>
     </section>
     <section class="skills">
-
+        <h2 class="heading">MY SKILLS</h2>
+        <div class="skills-wrapper">
+            <div class="skill-box">
+                <i class="skill-icon fa fa-lightbulb-o" aria-hidden="true"></i>
+                <div class="skill-title">IDEA</div>
+                <p class="skill-text">
+                    何かを考えることが好きです。<br>
+                    新しいことを思いついては試しています。<br>
+                    ディレクションの経験もあります。
+                </p>
+            </div>
+            <div class="skill-box">
+                <i class="skill-icon fa fa-paint-brush" aria-hidden="true"></i>
+                <div class="skill-title">DESIGN</div>
+                <p class="skill-text">
+                    見た目の綺麗さだけじゃなくて、<br>
+                    使いやすさ、情報の伝わりやすさなど、<br>
+                    その先まで考えることを意識しています。
+                </p>
+            </div>
+            <div class="skill-box">
+                <i class="skill-icon fa fa-code" aria-hidden="true"></i>
+                <div class="skill-title">CODING</div>
+                <p class="skill-text">
+                    HTML/CSSコーディングも行います。<br>
+                    正しく美しいマークアップと、<br>
+                    今後の変更への強さを考慮しています。
+                </p>
+            </div>
+        </div>
     </section>
     <section class="contact" id="contact">
-
+        <h2 class="heading">CONTACT</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="NAME">
+            <textarea name="message" placeholder="MESSAGE"></textarea>
+            <input type="submit" value="SEND">
+        </form>
     </section>
     <footer class="footer">
-
+        © sample site
     </footer>
+    <script src="lib/placeholders.min.js"></script>
 </body>
 </html>
